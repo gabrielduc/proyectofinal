@@ -1,0 +1,23 @@
+{% extends 'gymapp/main.html' %}
+{% load static %}
+
+
+
+
+{% block content %}
+
+<!-- CSS -->
+<link rel="stylesheet" href="{% static 'css/entrenadores.css' %}" />
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+
+    <div class="contenedor">
+        <img src="{% static 'img/leocoach.jpeg' %}" alt="Mi Imagen" class="imagen-central">
+        <a href="https://www.instagram.com/leo.coachpersonal?igsh=MWhueHFleTIxOTJ1NA==" target="_blank">
+            <img src="{% static 'img/ig.png' %}" alt="Instagram" class="icono-instagram">
+        </a>
+    </div>
+{% endblock %}

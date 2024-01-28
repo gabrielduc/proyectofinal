@@ -1,0 +1,21 @@
+/* Entrenadores */
+
+
+
+.contenedor {
+    text-align: center;
+  }
+  
+  .imagen-central {
+    width: 300px; /* ajusta el tamaño de la imagen según tus necesidades */
+    height: auto;
+    margin-bottom: 10px; /* Ajusta el margen inferior según tus necesidades */
+   
+  }
+  
+  .icono-instagram {
+    width: 50px; /* ajusta el tamaño del icono según tus necesidades */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
